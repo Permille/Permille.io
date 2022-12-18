@@ -1,0 +1,33 @@
+{
+  "name": "voxels",
+  "version": "1.0.0",
+  "description": "Voxels",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack --config webpack.config.js && node Server.js",
+    "electron": "npx webpack --config webpack.config.js && .\\node_modules\\.bin\\electron Electron.js --js-flags=\"--expose-gc\" --expose-gc --disable-site-isolation-trials --disable-web-security --user-data-dir=\"C:\\Temp\" --enable-features=SharedArrayBuffer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Permille/Permille.io.git"
+  },
+  "keywords": [
+    "Voxel"
+  ],
+  "author": "Permille.io",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Permille/Permille.io/issues"
+  },
+  "homepage": "https://github.com/Permille/Permille.io#readme",
+  "dependencies": {
+    "electron": "^22.0.0",
+    "file-loader": "^6.2.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "url": "^0.11.0",
+    "webpack": "^5.75.0"
+  }
+}
