@@ -13,6 +13,9 @@ module.exports = {
       "crypto": false
     }
   },
+  "experiments":{
+    "topLevelAwait": true
+  },
   "module":{
     "rules":[
       {
